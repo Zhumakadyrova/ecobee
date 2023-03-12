@@ -55,3 +55,20 @@ h1{
   color: black;
   font-weight: 600;
 }
+.company-info {
+  text-align: center;
+}
+.company-info h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+.p-bold {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.info-paragraph {
+  font-size: 20px;
+  line-height: 35px;
+}
