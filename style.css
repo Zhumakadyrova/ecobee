@@ -3,11 +3,12 @@
   
 }
 body{
-  font-family:"Tilda Sans" !important;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family:"Tilda Sans" !important;
     font-size:16px;font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale; */
   }
 .header-top {
   background-color: rgba(128, 128, 128, 0.352);
@@ -97,9 +98,9 @@ h1{
   max-width: 400px;
   margin: 20px;
 }
-.row_cards .col-3 img{
-  max-height: 400px;
-  max-width: 400px;
+.row_cards .col-4 img{
+  max-height: 300px;
+  min-width: 370px;
 }
 .row_cards .col-4 .card-text{
   background-color: white;
@@ -214,7 +215,8 @@ h1{
   margin: auto;
 }
 main{
-  background-color: rgba(187, 187, 187, 0.214);
+  padding-top: 20px;
+  background-color: rgba(187, 187, 187, 0.052);
 }
 .first.button{
   border: 1px solid black;
@@ -224,8 +226,12 @@ main{
   justify-content: center;
   margin: 0 auto;
 }
-.row.one {
+.container {
+  margin: 0 auto;
+}
+.row {
   display: flex;
+  justify-content: center;
   max-height: 400px;
 }
 .row.two{
@@ -280,4 +286,15 @@ main{
 .col-12 h3{
   padding: 25px;
   
+}
+
+/* contacts */
+
+.row-icon {
+  display: flex;
+}
+.row-icon.col-4{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
 }
