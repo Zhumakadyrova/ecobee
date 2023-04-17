@@ -218,13 +218,24 @@ main{
   padding-top: 20px;
   background-color: rgba(187, 187, 187, 0.052);
 }
-.first.button{
-  border: 1px solid black;
+.catalog-p{
+  text-align: center;
+  line-height: 25px;
+}
+.first.button.main{
+  max-width: 300px;
+  height: 80px;
+  line-height: 50px;
   padding: 12px 55px;
-  border-radius: 8px;
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
+}
+.first.button{
+  background-color: black;
+  color: white;
   margin: 0 auto;
+  text-decoration: none;
 }
 .container {
   margin: 0 auto;
@@ -274,9 +285,8 @@ main{
 }
 .col-7 a{
   color: black;
-  border: 1px solid black;
+  align-items: center;
   padding: 10px 315px;
-  border-radius: 8px;
 }
 .row.three{
   margin-top: 50px;
