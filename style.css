@@ -1,11 +1,9 @@
 * {
   box-sizing: border-box;
+  font-family: 'Tilda Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  
 }
-body {
-  /* font-family: 'Tilda Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
-  /* font-family: 'Tilda Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; */
-  font-family: 'Tilda Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+
 
 
 .header-top {
@@ -138,7 +136,6 @@ h1 {
   font-size: 12px;
 }
 .col-4 .bio {
-  font-family: Roboto;
   color: rgb(43, 40, 40);
   text-align: center;
   font-size: 11pt;
@@ -238,15 +235,24 @@ h1 {
 /* photo */
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
 main {
   padding-top: 20px;
+  font-size: 16px;
   background-color: rgba(187, 187, 187, 0.052);
 }
+.main-lemonNapkins h2{
+  margin: 20px;
+}
+.main-lemonNapkins{
+text-align: center;
+line-height: 30px;
+}
 .catalog-p {
+  margin-top: 30;
   text-align: center;
   line-height: 25px;
 }
