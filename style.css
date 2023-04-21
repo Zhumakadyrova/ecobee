@@ -95,12 +95,6 @@ h1 {
   margin: 20px 40px;
 }
 /* comment section style */
-.white-row2 {
-  background-color: white;
-  height: 60px;
-  max-width: 80%;
-  margin: 30px auto;
-}
 
 .comments-h2 {
   text-align: center;
@@ -111,15 +105,16 @@ h1 {
   padding-top: 50px;
   display: flex;
   justify-content: center;
-  background-color: rgba(203, 203, 191, 0.548);
 }
 .row_cards .col-4 {
   max-width: 400px;
   margin: 20px;
 }
 .row_cards .col-4 img {
-  max-height: 300px;
-  min-width: 370px;
+  height: 350px;
+  max-width: 320px;
+  border-radius: 50%;
+  align-items: center;
 }
 .row_cards .col-4 .card-text {
   background-color: white;
