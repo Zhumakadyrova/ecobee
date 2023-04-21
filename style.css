@@ -330,12 +330,35 @@ line-height: 30px;
   line-height: 5px;
 }
 /* contacts */
-
+.contact-details{
+  text-align: center;
+  font-weight: 300;
+}
+.contact-details h2{
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.contact-details .number {
+  line-height: 30px;
+  font-size: 40px;  
+  margin-top: 50px;
+}
+.contact-details .mail{
+  font-size: 30px;
+  line-height: 15px;
+}
+.contact-details .addres{
+  margin-top: 30px;
+}
 .row-icon {
   display: flex;
+  justify-content: center;
 }
-.row-icon.col-4 {
+.row-icon img {
   height: 50px;
   width: 50px;
-  border-radius: 50px;
+  border-radius: 0%;
+  margin: 5px;
 }
+
