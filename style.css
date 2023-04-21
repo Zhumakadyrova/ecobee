@@ -283,10 +283,10 @@ line-height: 30px;
 .row {
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 450px;
 }
-.row.two {
-  display: flex;
+.row.one{
+  margin-bottom: 30px;
 }
 .background {
   background-color: white;
@@ -294,48 +294,46 @@ line-height: 30px;
   margin-bottom: 20px;
   padding: 20px;
 }
-.row.three {
-  height: 50px;
-  /* max-width: 900px ; */
-  text-align: center;
-  margin: 0 auto;
-  background-color: white;
-}
 
 .row .col-7 {
-  margin: 10px;
   height: 450px;
 }
-.col-5 {
+.row .col-5 {
   margin: 10px;
 }
 .col-5 img {
+  height: 450px;
   width: 450px;
-  height: 350px;
 }
 .col-7 h3 {
-  padding: 3px;
   font-size: 20px;
   text-align: center;
 }
 .col-7 p {
-  padding: 30px 20px;
   text-align: center;
 }
 .col-7 a {
   color: black;
   align-items: center;
-  padding: 10px 315px;
 }
 .row.three {
   margin-top: 50px;
-  height: 150px;
-  width: 100%;
-}
-.col-12 h3 {
-  padding: 25px;
 }
 
+/* services */
+.row-services{
+  margin: 30px 20px;
+  display: flex;
+  justify-content: center;
+}
+.delivery-info h3{
+  text-align: center;
+  margin: 80px;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 2px;
+  line-height: 5px;
+}
 /* contacts */
 
 .row-icon {
