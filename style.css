@@ -321,6 +321,18 @@ line-height: 30px;
   display: flex;
   justify-content: center;
 }
+.row-services img{
+  height: 150px;
+  margin: 0 15%;
+}
+.row-services .card{
+  margin: 50px;
+  max-width: 400px;
+}
+.row-services .card-text{
+  margin: 20px 0;
+  text-align: center;
+}
 .delivery-info h3{
   text-align: center;
   margin: 80px;
