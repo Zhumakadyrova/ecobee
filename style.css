@@ -46,15 +46,18 @@ h1 {
 }
 .header-bottom a {
   text-decoration: none;
-  padding-right: 28px;
+  padding: 28px;
   font-size: 18px;
   color: black;
   font-weight: 600;
   letter-spacing: 0.8px;
 }
 .header-bottom a:hover {
+
   text-shadow: 0 0 5px green;
 }
+
+
 .company-info {
   text-align: center;
 }
@@ -81,6 +84,7 @@ h1 {
 }
 .footer-bottom ul{
   list-style-type: none;
+  width: 350px;
 
 }
 .footer-bottom a {
@@ -88,6 +92,14 @@ h1 {
   color: white;
   display: flex;
   margin: 40px;
+  font-size: 16px;
+  height: 30px;
+  transition: font-size .3s ease-in-out;
+}
+.footer-bottom a:hover {
+  font-size: 20px;
+  padding: 0;
+  text-shadow: 0 0 5px white;
 }
 .main-logo-bottom {
   height: 70px;
