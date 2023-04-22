@@ -237,7 +237,6 @@ h1 {
 main {
   padding-top: 20px;
   font-size: 16px;
-  background-color: rgba(187, 187, 187, 0.052);
 }
 .main-lemonNapkins h2{
   margin: 20px;
@@ -279,23 +278,20 @@ line-height: 30px;
   display: flex;
   justify-content: center;
   height: 450px;
+  margin: 60px 100px;
 }
-.row.one{
-  margin-bottom: 30px;
-}
-.background {
-  background-color: white;
-  max-height: 250px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
+
 
 .row .col-7 {
   height: 450px;
+  width: 600px;
 }
-.row .col-5 {
-  margin: 10px;
+.row.three{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .col-5 img {
   height: 450px;
   width: 450px;
@@ -310,9 +306,6 @@ line-height: 30px;
 .col-7 a {
   color: black;
   align-items: center;
-}
-.row.three {
-  margin-top: 50px;
 }
 
 /* services */
